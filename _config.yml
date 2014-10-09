@@ -1,0 +1,13 @@
+# Site settings
+title: Continuous Improvement
+email: blog@myjavec.com
+description: > # this means to ignore newlines until "baseurl:"
+  My journery into continous failure, continuous improvement and
+  hopeuflly contiuous success, please enjoy!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://myjavec.com" # the base hostname & protocol for your site
+twitter_username: pmyjavec
+github_username:  pmyjavec
+
+# Build settings
+markdown: kramdown
