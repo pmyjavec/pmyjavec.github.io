@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Currently living in Australia and enjoy Surfing, Yoga, Programming, Music and
-Photography.
+Living in Australia I enjoy the Ocean, Yoga, Programming, Music and Photography.
 
-I'm also very interested in the practice and study of Zen Buddhism.
+I'm also very interested in the practice and study of mindfulness and Buddhism.
