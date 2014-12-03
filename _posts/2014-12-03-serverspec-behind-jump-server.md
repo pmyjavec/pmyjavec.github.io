@@ -10,7 +10,11 @@ Rest easy your [Serverspec](http://serverspec.org) tests don't have to suffer an
 Straight up, I don't advocate jump servers, jump hosts, bastion hosts, gateway servers or any such things they are a pain and a risk.
 What I do advocate however, is writing tests for infrastructure!
 
-All you will need for this hack is netcat or similar installed on your jump server and some modifications made to your `spec_helper.rb`.
+For this hack to work you just need the following three things:
+
+ * Netcat installed on your jump server
+ * SSH key authentication working for connections to your jump server, no passwords
+ * Some modifications made to your `spec_helper.rb`.
 
 Utilising the ProxyCommand SSH option your problems can be solved easily. Take a look at the following snippet:
 
