@@ -21,11 +21,13 @@ Utilising the ProxyCommand SSH option your problems can be solved easily. Take a
 ~~~ruby
 require 'serverspec'
 require 'net/ssh'
+require 'net/ssh/proxy/command'
 
-Net::SSH::Config.for('*')[:proxy] = "ssh #{'jump.server.enterprise.com'} nc %h %p"
+proxy = Net::SSH::Proxy::Command.new('ssh jumpguy@jump.server.enterprise.com nc %h %p')
 
 RSpec.configure do |config|
   set :host, 'server.behind.jump.host.enterprise.com'
+  set :ssh_options => proxy
 
   set :backend, :ssh
   set :request_pty, true
@@ -33,7 +35,7 @@ end
 ~~~
 
 
-The secret sauce here is `Net::SSH::Config.for('*')[:proxy] = "ssh #{'jump.server.enterprise.com'} nc %h %p"`, it will
+The secret sauce here is `proxy = Net::SSH::Proxy::Command.new('ssh jumpguy@jump.server.enterprise.com nc %h %p')`, it will
 make sure all new SSH connections are routed through a jump host of your choice.
 
 I like this solution as minimal code is required and you can address the hosts you which you would like to test via the actual FQDN.
