@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "Run Python Unit Tests Automatically with Sniffer"
-date:   2014-12-03 21:00:00
+date:   2015-04-15 11:00:00
 categories: code, python, testing
 ---
 
 I was recently writing a couple of plug-ins for [Ansible](https://github.com/ansible/ansible), I only want to use
-standard libraries so everything works right out of the box on build servers etc.
+standard libraries so everything works right out of the box on older build servers etc.
 
 I love having my tests running automatically while developing code similar to the way
-[guard](https://github.com/guard/guard) for Ruby works but I prefer to run things native to the language I'm developing
-in.
+[guard](https://github.com/guard/guard) for Ruby works. As much as I like guard I prefer to use tools native to the
+language I'm working in, that way I can easily parse unittest output etc.
 
-[Sniffer](https://github.com/jeffh/sniffer) was the answer for me but required a custom `scent.py` file to work with
-vanilla `unittest`, here's how mine looks.
+After some evaluation I settled for [Sniffer](https://github.com/jeffh/sniffer), it required a custom `scent.py` file to work with
+vanilla `unittest`, so here is mine, hope it saves you some time:
 
 ~~~python
 import sniffer
