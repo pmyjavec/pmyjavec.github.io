@@ -38,7 +38,7 @@ us still choose to live. In constant fear of each other.
 
 What can be done about it? Create things for the right reasons, get along, promote peace then our creations can follow.
 
-Right now so called  defence seems one of the largest backers of AI. Are they really creating machines for the right purposes?
+Right now so called *defence* seems one of the largest backers of AI. Are they really creating machines for the right purposes?
 Just like they've created human killing machines, it seems there is no stopping them from creating artificial killing machines..
 
 The creation of an AI is something I don't believe as a society we're ready for as we've not yet come to peace with
