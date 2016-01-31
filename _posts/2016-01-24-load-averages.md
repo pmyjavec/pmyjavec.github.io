@@ -16,7 +16,7 @@ it has to do.
 When speculating about high load averages it's important to remember **load averages are the average number of *ready
 to run and running* processes in the run queue over a period of time, hence load *average***
 
-* The `uptime` command shows us how many processes have been competing for the CPU over the last 1,5 and 15 minutes*
+*The `uptime` command shows us how many processes have been competing for the CPU over the last 1,5 and 15 minutes*
 
 ~~~
 $ uptime
