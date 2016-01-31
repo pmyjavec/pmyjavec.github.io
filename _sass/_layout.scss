@@ -193,6 +193,7 @@
 /**
  * Posts
  */
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -209,6 +210,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-family: $post-font-family;
 
     h2 {
         font-size: 32px;
