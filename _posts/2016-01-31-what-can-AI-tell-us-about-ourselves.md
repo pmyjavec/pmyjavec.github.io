@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What Can AI Tell Us About Ourselves?"
-date:   2016-01-24 21:25:29
+date:   2016-01-31 21:25:29
 comments: true
 categories: philosophy
 author: "Paul Myjavec"
