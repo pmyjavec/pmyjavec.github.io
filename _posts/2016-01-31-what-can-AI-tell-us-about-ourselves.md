@@ -11,12 +11,12 @@ There has been a lot of talk about AI in the news this week after Google's Deep 
 This again has sparked a hot debate about whether or not we're doing the right thing by creating machines which
 may end up becoming far more "intelligent" than their creators.
 
-The interesting side of the argument seems to be that in creating these machines we will ultimately destroy
+The interesting side of the argument seems to be that in creating these machines we can ultimately destroy
 civilization, either intentionally or by accident.
 
 Why is this? Is it because we're projecting our own intentions, our own fears and mindset onto our own creations?
 Don't we do this to our most precious creations already? I'm talking about children. Every time a bomb is dropped in the
-name of peace (through causing harm) negative energy is transfered to those affected and to future generations. 
+name of peace, though causing harm, negative energy is transfered to those affected and to future generations. 
 
 Each generation doesn't completely out-smart the old one but it comes close. Will they always do the right thing by
 society? Not unless we teach them to do so and set the right examples. I believe the same would be for machines.
