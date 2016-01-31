@@ -14,21 +14,30 @@ Within Linux systems the load average metric is not an indication of how hard th
 it has to do.
 
 When speculating about high load averages it's important to remember **load averages are the average number of *ready
-to run / running* processes in the run queue.**
+to run and running* processes in the run queue over a period of time, hence load *average***
 
-Think about a greenskeeper as a single core CPU. If he is mowing 1 lawn (processing) and has 5 more customers (processes)
-waiting for their lawn to be mowed that day then his load average for the day is 6,
-no matter how hard he is working to mow the current lawn.
+* The `uptime` command shows us how many processes have been competing for the CPU over the last 1,5 and 15 minutes*
 
-*On a side note the greenskeeper is free to choose which lawn he mows and how much of it he mows at anytime based on
-priority (this is kinda how the scheduler works)*
+~~~
+$ uptime
+ 10:12:39 up 50 min,  1 user,  load average: 0,05, 0,07, 0,12
+~~~
 
-If we were to observe a load average of 5 on a 4 core machine, we can assume that at least one process will be put on
-hold while the other 4 processes use up their alloted share of CPU time.
+# Analogy
 
-When dealing with applications in which waiting for CPU time is not a major issue (think batch processing), loading up
-systems this way is common practice. On a web server it's desirable to leave a little headroom to account for traffic
-spikes etc.
+Think about Greens Keeper Joe as a single core processor. If Joe is mowing 1 lawn (processing) and has 5 more customers (processes)
+waiting for their lawn to be mowed that day, then his current load average is 6, no matter how hard he is working to
+mow the current lawn.
+
+As Joe mows lawns the load average will begin to decrease, and as more jobs are booked his load average will increase,
+that is if he is receiving bookings faster than he can hope to complete them. This can be a major problem because then some
+customers might never get their lawns mowed, especially if Joe's lawn mower breaks down!
+
+If Joe is really busy then he might call his friend Eliza (processor #2), if she arrives to help then all of a sudden Joe's workload
+has halved as the pair are now sharing the jobs. So the current workload of 6 becomes 3. This is what would happen on a
+Dual core machine.
+
+*Note: Joe is free to choose which lawn he mows and how much of it he mows at anytime based on priority, this is very roughly how the scheduler works*
 
 # Load averages can be deceiving
 
@@ -93,3 +102,16 @@ KiB Swap:  2097148 total,  2097148 free,        0 used.   762476 avail Mem
    25  20 R  0,0   0:00.80 0 [rcuos/0]
  1682  20 R  0,2   0:00.11 0 top
 ~~~
+
+# Conclusion
+
+So if we were to observe a load average of 5 on a 4 core machine, we can assume that at least one process will be put on
+hold while the other 4 processes use up their alloted share of CPU time.
+
+When dealing with applications in which briefly waiting for CPU time is not a major issue (think batch processing), higher
+load averages are generally desirable, providing, it's not constantly climbing. Climbing load averages mean you're
+scheduling more work that can ever be completed or your system or code might have a problem affecting overall performance.
+
+On a web server you generally want to see a different trend, it's desirable to leave a little headroom to account for
+traffic spikes etc. A load average of 3.5 on a 4 core machine is not bad. Having a load average which is steady or
+decreasing means your system is churning through the work at optimal pace.
