@@ -4,6 +4,7 @@ title:  "What Can AI Tell Us About Ourselves?"
 date:   2016-01-24 21:25:29
 comments: true
 categories: philosophy
+author: "Paul Myjavec"
 ---
 
 There has been a lot of talk about AI in the news this week after Google's Deep Mind beat a human-being at a game of Go.
