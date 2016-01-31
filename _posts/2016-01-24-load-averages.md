@@ -3,6 +3,7 @@ layout: post
 title:  "Understanding Load Averages in Linux"
 date:   2016-01-24 21:25:29
 categories: linux
+author: "Paul Myjavec"
 ---
 
 # Introduction
