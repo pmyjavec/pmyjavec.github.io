@@ -7,7 +7,7 @@ categories: philosophy
 author: "Paul Myjavec"
 ---
 
-There has been a lot of talk about AI in the news this week after Google's Deep Mind beat a human-being at a game of Go.
+There has been a lot of talk about AI in the news this week after Google's Deep Mind beat a world champion Go player at his own game.
 
 This again has sparked a hot debate about whether or not we're doing the right thing by creating machines which
 may end up becoming far more "intelligent" than their creators.
