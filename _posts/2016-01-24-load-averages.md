@@ -77,7 +77,7 @@ Tasks: 164 total,   3 running, 161 sleeping,   0 stopped,   0 zombie
 top - 18:33:43 up  9:44,  3 users,  load average: 2,08, 1,97, 1,47
 Tasks: 165 total,   2 running, 163 sleeping,   0 stopped,   0 zombie
 %Cpu0  : 96,3 us,  0,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  3,7 si,  0,0 st
-%Cpu1  : 15,2 us, 32,5 sy,  0,4 ni,  0,0 id, *50,7 wa*,  0,0 hi,  1,2 si,  0,0 st
+%Cpu1  : 15,2 us, 32,5 sy,  0,4 ni,  0,0 id,  50,7 wa, 0,0 hi,  1,2 si,  0,0 st
 
   PID  PR S  %CPU     TIME+ P COMMAND
 27833  20 D  22,0   0:21.72 1 dd if=/dev/sda of=/dev/null bs=2MB
