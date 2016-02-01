@@ -72,7 +72,7 @@ Tasks: 164 total,   3 running, 161 sleeping,   0 stopped,   0 zombie
 27862  20 R  83,1   1:18.71 0 bash -c while true; do (( 100 * 6 )); done
 ~~~
 
-*CPU under heavy computation workloads with a saturated disk for ~2 minutes, note the 1 minute load average at ~2:*
+*CPU under heavy computation workloads with a saturated disk for ~2 minutes, note the 1 minute load average at ~2, even with practically zero CPU idle time:*
 
 ~~~
 top - 18:33:43 up  9:44,  3 users,  load average: 2,08, 1,97, 1,47
