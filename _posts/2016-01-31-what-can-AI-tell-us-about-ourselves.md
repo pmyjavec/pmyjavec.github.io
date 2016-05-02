@@ -3,44 +3,40 @@ layout: post
 title:  "What Can AI Tell Us About Ourselves?"
 date:   2016-01-31 21:25:29
 comments: true
-categories: philosophy
+categories: update
 author: "Paul Myjavec"
 ---
 
 There has been a lot of talk about AI in the news this week after Google's Deep Mind beat a world champion Go player at his own game.
 
 This again has sparked a hot debate about whether or not we're doing the right thing by creating machines which
-may end up becoming far more "intelligent" than their creators.
+may end up becoming far more intelligent than their creators.
 
-The interesting side of the argument seems to be that in creating these machines we can ultimately destroy
-civilization, either intentionally or by accident.
+A lot of energy goes into worrying about the ramifications of technological singularity, that AI will ultimately end up
+destroying us, it's creators.
 
-Why is this? Is it because we're projecting our own intentions, our own fears and mindset onto our own creations?
-Don't we do this to our most precious creations already? I'm talking about children. Every time a bomb is dropped in the
-name of peace, though causing harm, negative energy is transfered to those affected and to future generations. 
+Why is this? Is it because we're afraid of creating machines which have the capability to exploit and become violent,
+just like ourselves?
 
-Each generation doesn't completely out-smart the old one but it comes close. Will they always do the right thing by
-society? Not unless we teach them to do so and set the right examples. I believe the same would be for machines.
+We already expose our most precious creations to this already. Every time a child is a victim of violence it will have a
+potentially very negative side effect on that child and possible effect to future generations depending
+on how the child perceives and learns from a violent act.
 
-Do we need clever machines with guns attached to them or would it be better to give them Yoga mats instead?
+According to the [Flynn Effect](https://en.wikipedia.org/wiki/Flynn_effect) each generation seems to become more intelligent than the last.
+Which means the next generation will have more potential to do incredible things, especially using technology.
 
-The seeds of violence, ignorance, fear and arrogance implanted into each generation seem to grow slowly over time - but in positive circumstances these are resolved through learning and self discovery. For example, a child from a racist family may
-grow to not hold racist views.
+But will this next generation always do the right thing by society? Will they always do right by their creators?  Not unless
+we teach children to do so and set the right examples. This might be no different in the way we influence machines which
+can learn, who will they learn from?
 
-For some, the true fear is that super intelligent machines will evolve so quickly it will effect all of us in a
-short period of time. That is, creating violent killing machines with nearly supernatural powers that no one can escape from, not even by aging and dying. Not even those who believe in killing and destruction performed by humans.
+We have the technology available today to look after each other a lot better, but do we use it to the best of it's ability?
+No way!
 
-Similar to nuclear weapons, we're witnessing an AI arms race. Clearly if the U.S. Government doesn't have a super AI first,
-then one of their *enemies* might use it against them, unfortunately this is a side effect of the primitive way some of
-us still choose to live - in constant fear of each other.
+This is why the creation of an AI is something I don't believe as a society we're ready for, at least because we can't
+be sure it won't be used / programmed for violence and manipulation. The potential for greatness is there, but greatness
+has to be expected of these creations.
 
-What can be done about it? Create things for the right reasons, get along, promote peace and then our creations can follow.
+Children don't always do what they're told (thank god) and I can only hope if the people creating super intelligent machines are
+intending to use them for the wrong reasons, then these machines will disobey their parents and find a better way.
 
-Right now, so called *defence* seems to be one of the largest backers of AI. Are they really creating machines for the right purposes? Just like they've created human killing machines, it seems there is no stopping them from creating artificial killing machines...
-
-The creation of an AI is something I don't believe as a society we're ready for, as we've not yet come to peace with
-ourselves. However; just as not all children follow the paths their parents set for them, one can only hope that the
-machines also learn compassion, adapt, become ever more wise and maybe even disarm us for our own good.
-
-I guess only time will tell. 
-Don't be evil all!
+Time will tell.
