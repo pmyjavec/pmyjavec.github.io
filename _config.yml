@@ -2,7 +2,7 @@
 title: Continuous Improvement
 email: blog@continuousimprovement.me
 description: > # this means to ignore newlines until "baseurl:"
-    A journey into improvement
+    Self refelection and evolution
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://continuousimprovement.me" # the base hostname & protocol for your site
 twitter_username: pmyjavec
