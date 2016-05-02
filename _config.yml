@@ -1,12 +1,11 @@
 # Site settings
-title: Continuous Improvement
-email: blog@continuousimprovement.me
+title: Paul Myjavec
+email: p@myjavec.com
 description: > # this means to ignore newlines until "baseurl:"
     Self refelection, evolution and stuff
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://continuousimprovement.me" # the base hostname & protocol for your site
 twitter_username: pmyjavec
 github_username:  pmyjavec
-
 # Build settings
 markdown: kramdown
